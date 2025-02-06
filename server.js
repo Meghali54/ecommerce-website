@@ -9,12 +9,6 @@ const shopCartRouter = require('./routes/shop/cart-routes');
 
 
 
-mongoose
-    .connect('mongodb+srv://amaanalvi40:amaanalvi40@cluster0.7971o.mongodb.net/'
-
-    ).then(()=>console.log('MongoDB Connected'))
-    .catch((error) => console.log(error)); 
-
 
 const app = express()
 const PORT = process.env.PORT || 5001;
